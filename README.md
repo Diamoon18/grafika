@@ -51,7 +51,7 @@ Call the ```spiral``` function and draw something that looks like an eye.
 ```
 ![etap1](https://user-images.githubusercontent.com/72127610/110216250-562b0000-7eae-11eb-88f1-e61142ed177e.jpg)
 
-Create new object turtle and call the ```circle_direction``` function for drawing big red circle.
+Create new object turtle and call the ```circle_direction``` the function of drawing large red circles in the form of a crescent.
 ```python
     s = Turtle(visible=False)
     s.speed('fastest')
@@ -59,6 +59,15 @@ Create new object turtle and call the ```circle_direction``` function for drawin
     circle_direction(s, 200, 10, 4)
 ```
 ![etap2](https://user-images.githubusercontent.com/72127610/110216438-7c9d6b00-7eaf-11eb-9501-cc036567fb2b.jpg)
+
+Create new object turtle and call the ```circle_direction``` the function of drawing large, smaller than red, yellow circles in the form of a crescent.
+```python
+    t1 = Turtle(visible=False)
+    t1.speed(0)
+    t1.color('yellow')
+    circle_small(t1, 160, 10, 10)
+```
+![etap3](https://user-images.githubusercontent.com/72127610/110216638-7491fb00-7eb0-11eb-9b67-c762ac47424e.jpg)
 
 ### Result:
 ![burning_flower](https://user-images.githubusercontent.com/72127610/110212868-b82f3980-7e9d-11eb-8745-d4d379ff2bff.jpg)
