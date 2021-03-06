@@ -15,7 +15,7 @@ color1 = 'black'
 color2 = 'red'
 color3 = 'yellow'
 ```
-## These functions are for drawing circles. 
+## These functions are for drawing circles
 Function ``` circles ``` make circles with a smaller radius on each iteration.
 ```python
 def circles(t, size, small):
