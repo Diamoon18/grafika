@@ -70,14 +70,11 @@ Create new object turtle and call the ```circle_direction``` the function of dra
 ![etap3](https://user-images.githubusercontent.com/72127610/110216638-7491fb00-7eb0-11eb-9b67-c762ac47424e.jpg)
 
 And the last draw the core of the flower. Call the ```spiral``` function.
-So that the window doesn't close immediately call the function ```exitonclick```
+To prevent the window from closing immediately, call the ```exitonclick``` function.
 ```python
 spiral(eye, 10, color3)
 screen.exitonclick()
 ```
-```python
-if __name__ == "__main__":
-    main()
-```
+
 ## Result:
 ![burning_flower](https://user-images.githubusercontent.com/72127610/110212868-b82f3980-7e9d-11eb-8745-d4d379ff2bff.jpg)
