@@ -7,6 +7,14 @@ It is quite easy to use and allows you to draw interisting things.
 ```python
 from turtle import Turtle, Screen
 ```
+## Variable initialization
+```python
+ANGLE  = 2
+color1 = 'black'
+color  = 'blue'
+color2 = 'red'
+color3 = 'yellow'
+```
 ## These functions are for drawing circles. 
 Function ``` circles ``` make circles with a smaller radius on each iteration.
 ```python
