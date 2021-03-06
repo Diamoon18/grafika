@@ -2,8 +2,8 @@ import turtle
 from turtle import Turtle, Screen
 
 ANGLE  = 2
-color1 = 'black'
 color  = 'blue'
+color1 = 'black'
 color2 = 'red'
 color3 = 'yellow'
 
