@@ -17,7 +17,7 @@ def circle_direction(t, size, repeat, small):
     circles(t, size, small)
     t.right(360/repeat)
 
-def spiral(turtle, radius, color_name):
+def circle_spiral(turtle, radius, color_name):
     for i in range(360 // ANGLE):
         turtle.color(color_name)
         turtle.circle(radius)
