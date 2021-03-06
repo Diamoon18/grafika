@@ -13,9 +13,9 @@ def circles(t, size, small):
         size=size-small
 
 def circle_direction(t, size, repeat, small):
-  for i in range (repeat):
-    circles(t, size, small)
-    t.right(360/repeat)
+   for i in range (repeat):
+        circles(t, size, small)
+        t.right(360/repeat)
 
 def circle_spiral(turtle, radius, color_name):
     for i in range(360 // ANGLE):
