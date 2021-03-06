@@ -12,7 +12,7 @@ def circles(t, size, small):
         t.circle(size)
         size=size-small
 
-def circle_small(t, size, repeat, small):
+def circle_direction(t, size, repeat, small):
   for i in range (repeat):
     circles(t, size, small)
     t.right(360/repeat)
