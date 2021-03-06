@@ -40,7 +40,7 @@ def main():
     circle_small(s, 200, 10, 4)
 
     t1 = Turtle(visible=False)
-    t1.speed(0)
+    t1.speed('fastest')
     t1.color('yellow')
     circle_small(t1, 160, 10, 10)
 
