@@ -2,14 +2,14 @@
 # Python 2d picture - burning flower
 
 ## These functions are for drawing circles. 
-Function ``` circles ``` draw circles with a smaller radius on each iteration.
+Function ``` circles ``` make circles with a smaller radius on each iteration.
 ```python
 def circles(t, size, small):
     for i in range(10):
         t.circle(size)
         size=size-small
 ```
-Function ``` circle_direction ``` 
+Function ``` circle_direction ``` uses the ``` circles ``` function and draws circles 
 ```python
 def circle_direction(t, size, repeat, small):
   for i in range (repeat):
