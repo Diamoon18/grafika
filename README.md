@@ -1,5 +1,7 @@
 
 # Python 2d picture - burning flower
+I found an amazing library ```turtle```, that helps me to draw a flower.
+It is quite easy to use and allows you to draw interisting things.
 ## Using functions from the ```turtle``` library 
 ```python
 from turtle import Turtle, Screen
@@ -29,7 +31,7 @@ def spiral(turtle, radius, color_name):
         turtle.left(ANGLE)
 ```
 ## Main function
-A window for the picture, black background and change the name of the window.
+A window for the picture, black background and the name of the window.
 ```python
     screen = Screen()
     screen.bgcolor("black")
