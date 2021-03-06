@@ -35,13 +35,13 @@ def spiral(turtle, radius, color_name):
 A window for the picture, black background and the name of the window.
 ```python
     screen = Screen()
-    screen.bgcolor("black")
+    screen.bgcolor('black')
     screen.title('Burning flower')
 ```
 Create an object turtle.
 ```python
     eye = Turtle(visible=False)
-    eye.speed("fastest")
+    eye.speed('fastest')
 ```
 Call the ```spiral``` function and draw something that looks like an eye.
 ```python
