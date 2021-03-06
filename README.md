@@ -65,7 +65,7 @@ Create new object turtle and call the ```circle_direction``` the function of dra
     t1 = Turtle(visible=False)
     t1.speed(0)
     t1.color('yellow')
-    circle_small(t1, 160, 10, 10)
+    circle_direction(t1, 160, 10, 10)
 ```
 ![etap3](https://user-images.githubusercontent.com/72127610/110216638-7491fb00-7eb0-11eb-9b67-c762ac47424e.jpg)
 
