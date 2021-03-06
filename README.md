@@ -63,7 +63,7 @@ Create new object turtle and call the ```circle_direction``` the function of dra
 Create new object turtle and call the ```circle_direction``` the function of drawing large, smaller than red, yellow circles in the form of a crescent.
 ```python
     t1 = Turtle(visible=False)
-    t1.speed(0)
+    t1.speed('fastest')
     t1.color('yellow')
     circle_direction(t1, 160, 10, 10)
 ```
