@@ -14,7 +14,7 @@ def circles(t, size, small):
 
 def circle_small(t, size, repeat, small):
   for i in range (repeat):
-    circles(t,size,small)
+    circles(t, size, small)
     t.right(360/repeat)
 
 def spiral(turtle, radius, color_name):
