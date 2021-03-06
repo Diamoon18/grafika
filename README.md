@@ -51,9 +51,14 @@ Call the ```spiral``` function and draw something that looks like an eye.
 ```
 ![etap1](https://user-images.githubusercontent.com/72127610/110216250-562b0000-7eae-11eb-88f1-e61142ed177e.jpg)
 
-
+Create new object turtle and call the ```circle_direction``` function for drawing big red circle.
 ```python
+    s = Turtle(visible=False)
+    s.speed('fastest')
+    s.color('red')
+    circle_direction(s, 200, 10, 4)
 ```
+![etap2](https://user-images.githubusercontent.com/72127610/110216438-7c9d6b00-7eaf-11eb-9501-cc036567fb2b.jpg)
 
 ### Result:
 ![burning_flower](https://user-images.githubusercontent.com/72127610/110212868-b82f3980-7e9d-11eb-8745-d4d379ff2bff.jpg)
