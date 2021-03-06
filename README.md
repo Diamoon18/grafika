@@ -15,15 +15,15 @@ def circles(t, size, small):
         t.circle(size)
         size=size-small
 ```
-Function ``` circle_direction ``` uses the ``` circles ``` function and draw circles in round direction (0-360 digrees)
+Function ``` circle_direction ``` uses the ``` circles ``` function and draws circles-crescents in circular direction.
 ```python
 def circle_direction(t, size, repeat, small):
   for i in range (repeat):
-    circles(t,size,small)
+    circles(t, size, small)
     t.right(360/repeat)
 
 ```
-## This function draw circles in spiral direction // po krugu
+## This function draw circles in spiral direction
 ```python
 def spiral(turtle, radius, color_name):
     for i in range(360 // ANGLE):
