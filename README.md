@@ -2,6 +2,7 @@
 # Python 2d picture - burning flower
 I found an amazing library ```turtle```, that helps me to draw a flower.
 It is quite easy to use and allows you to draw interisting things.
+
 ## Using functions from the ```turtle``` library 
 ```python
 from turtle import Turtle, Screen
@@ -37,14 +38,21 @@ A window for the picture, black background and the name of the window.
     screen.bgcolor("black")
     screen.title('Burning flower')
 ```
-Create an object
+Create an object turtle.
 ```python
     eye = Turtle(visible=False)
     eye.speed("fastest")
-
+```
+Call the ```spiral``` function and draw something that looks like an eye.
+```python
     spiral(eye, 100, color)
     spiral(eye, 50, color2)
     spiral(eye, 25, color1)
+```
+![etap1](https://user-images.githubusercontent.com/72127610/110216250-562b0000-7eae-11eb-88f1-e61142ed177e.jpg)
+
+
+```python
 ```
 
 ### Result:
