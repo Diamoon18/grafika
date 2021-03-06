@@ -1,6 +1,9 @@
 
 # Python 2d picture - burning flower
-
+## Using functions from the ```turtle``` library 
+```python
+from turtle import Turtle, Screen
+```
 ## These functions are for drawing circles. 
 Function ``` circles ``` make circles with a smaller radius on each iteration.
 ```python
@@ -26,12 +29,13 @@ def spiral(turtle, radius, color_name):
         turtle.left(ANGLE)
 ```
 ## Main function
-Okienko tło czarne
+A window for the picture, black background and change the name of the window.
 ```python
     screen = Screen()
     screen.bgcolor("black")
     screen.title('Burning flower')
 ```
+Create an object
 ```python
     eye = Turtle(visible=False)
     eye.speed("fastest")
