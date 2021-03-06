@@ -25,10 +25,10 @@ def spiral(turtle, radius, color_name):
 
 def main():
     screen = Screen()
-    screen.bgcolor("black")
+    screen.bgcolor('black')
 
     eye = Turtle(visible=False)
-    eye.speed("fastest")
+    eye.speed('fastest')
 
     spiral(eye, 100, color)
     spiral(eye, 50, color2)
